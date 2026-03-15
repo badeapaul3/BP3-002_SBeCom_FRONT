@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "checkJs": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "react-icons/*": [
+        "./node_modules/react-icons/*"
+      ]
+    }
+  },
+  "include": [
+    "src",
+    "node_modules"
+  ]
+}
